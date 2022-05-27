@@ -1,0 +1,109 @@
+        /* rule */
+        /* selector */
+        /* section{
+            background: #ff1b68; 
+        } */
+
+        *{
+            box-sizing: border-box;
+        }
+
+
+        body{
+            font-family: 'montserrat',sans-serif;
+            margin: 0px;
+        }
+
+        h1{
+            color: white;
+            font-family: 'Anton',sans-serif;
+        }
+
+    
+
+        /* #plans{
+            background-color: rgb(182, 41, 41);
+        } */
+        .main-header{
+            background: #2ddf5c;
+            padding: 8px 16px;
+            width: 100%;
+        }   
+
+        .main-header>div {
+            display: inline-block;
+        }
+
+        .main-header_brand {
+            text-decoration: none;
+            font-weight: bold;
+            color: #0e4f1f;
+        }
+
+        .main-nav{
+            display: inline-block;
+            text-align: right; 
+            width: 90%;     
+        }
+
+        .main-nav_items{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .main-nav_item{
+            display: inline-block;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 3px 0px;
+        }
+
+        .main-nav_item a{
+            text-decoration: none;
+            color: #0e4f1f;
+        }
+
+        .main-nav_item_cta a {
+            color: white;
+            background: #ff1b68;
+            padding: 5px 8px;
+            border-radius: 8px;
+        }
+  
+
+    
+        .main-nav_item a:hover,
+        .main-nav_item a:active {
+            color: #f3f7f2;
+            border-bottom: 3px solid white;
+        }
+
+        .main-nav_item_cta a:hover,
+        .main-nav_item_cta a:active {
+                color: #ff1b68;
+                background: #f3f7f2;
+                border: none;
+            }  
+
+        #product-overview{
+            /* background: red; */
+            background: url(freedom.jpg);
+            width: 100%;
+            height: 500px;
+            padding: 20px;
+            /* border: 5px black solid; */
+            /* box-sizing: border-box; */
+            /* margin: 20px; */
+        }
+
+        #product-overview h1 {
+            color: #f3f7f2;
+            font-family: 'Anton' sans-serif;
+            
+        }
+
+        .section-title{
+            color: #2bff00;
+        }
+
